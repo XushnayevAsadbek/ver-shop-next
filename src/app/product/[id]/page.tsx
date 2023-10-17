@@ -8,7 +8,7 @@ interface Props{
     };
 }
 
-const ProductDetailPage = async ({params:{id } }:Props ) => {
+const ProductDetailPage = async({params:{id } }:Props ) => {
     try{    
 
         const res = await fetch(
